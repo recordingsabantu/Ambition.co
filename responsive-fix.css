@@ -1,6 +1,5 @@
 @import url("editorial-refresh.css");
 
-/* Keep the storefront inside the phone viewport and constrain the current product-card markup. */
 html,
 body {
   width: 100%;
@@ -8,8 +7,10 @@ body {
   overflow-x: clip;
 }
 
-img {
+img,
+video {
   max-width: 100%;
+  display: block;
 }
 
 .product-grid {
@@ -106,10 +107,95 @@ img {
   min-width: 0;
 }
 
+.related-footer-showcase {
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.related-footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 18px;
+}
+
+.footer-feature-card {
+  display: flex;
+  flex-direction: column;
+  background: #f6f3ef;
+  border: 1px solid #e6e3de;
+  overflow: hidden;
+}
+
+.footer-feature-card img,
+.footer-feature-card video {
+  width: 100%;
+  aspect-ratio: 1.2;
+  object-fit: cover;
+  background: #efefef;
+}
+
+.footer-feature-card__copy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 18px 22px;
+}
+
+.footer-feature-card__copy h3 {
+  margin: 0;
+  font-size: clamp(1.15rem, 2vw, 1.7rem);
+  line-height: 1.1;
+}
+
+.footer-feature-card__copy strong {
+  font-size: 0.96rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.product-modal__main {
+  position: relative;
+}
+
+.product-modal__photo,
+.product-modal__video-wrap {
+  display: none;
+}
+
+.product-modal__photo.is-visible,
+.product-modal__video-wrap.is-visible {
+  display: block;
+}
+
+.product-modal__video-wrap {
+  width: 100%;
+  background: #111;
+}
+
+.product-modal__video {
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+}
+
+.product-modal__thumb--video {
+  display: grid;
+  place-items: center;
+  min-width: 80px;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 850px) {
   .product-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 28px 14px;
+  }
+
+  .related-footer-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -153,7 +239,6 @@ img {
   }
 }
 
-/* Replace the lime accent with a high-contrast black-and-white treatment. */
 ::selection { color: #fff; background: #111; }
 .announcement { background: #111; color: #fff; }
 .hero-copy h1 span,

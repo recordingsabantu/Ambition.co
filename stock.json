@@ -8,7 +8,10 @@
     "price": "",
     "priceLabel": "Ask for price",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Racer%20T-shirt/-Ambition%20Racer%20T-shirt%20Black%20%26%20White.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Racer%20T-shirt/-Ambition%20Racer%20T-shirt%20Black%20%26%20White.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Racer%20T-shirt/-Ambition%20Racer%20T-shirt%20Black%20%26%20White.jpeg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Racer%20T-shirt/Oversized%20Ambition%20Racing%20T-shirt%20R380.jpeg"
+    ],
     "status": "Available — ask us to confirm",
     "orderable": false
   },
@@ -21,7 +24,10 @@
     "price": "",
     "priceLabel": "Ask for price",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt/-Ambition%20Skull%20Oversized%20T-shirt%20Black.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt/-Ambition%20Skull%20Oversized%20T-shirt%20Black.jpeg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt/-Ambition%20Skull%20Oversized%20T-shirt%20White.PNG", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt%20Black%20%26%20Red.png"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt/-Ambition%20Skull%20Oversized%20T-shirt%20Black.jpeg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/-Ambition%20Skull%20Oversized%20T-shirt/-Ambition%20Skull%20Oversized%20T-shirt%20White.PNG"
+    ],
     "status": "Available — ask us to confirm",
     "orderable": false
   },
@@ -34,7 +40,10 @@
     "price": "250",
     "priceLabel": "R250",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Oversized%20T-shirt/Ambition%20Oversized%20T-shirt%20-R250.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Oversized%20T-shirt/Ambition%20Oversized%20T-shirt%20-R250.jpeg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Oversized%20T-shirt/R400%20Available%20in%20White.PNG"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Oversized%20T-shirt/Ambition%20Oversized%20T-shirt%20-R250.jpeg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Oversized%20T-shirt/R400%20Available%20in%20White.PNG"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -47,7 +56,9 @@
     "price": "300",
     "priceLabel": "R300",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20T-shirt%20Unisex/Ambition%20Relaxed%20T-shirt%20Unisex%20R300.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20T-shirt%20Unisex/Ambition%20Relaxed%20T-shirt%20Unisex%20R300.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20T-shirt%20Unisex/Ambition%20Relaxed%20T-shirt%20Unisex%20R300.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -60,7 +71,9 @@
     "price": "450",
     "priceLabel": "R450",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20University%20T-shirt/R450%20Ambition%20University%20T-shirt.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20University%20T-shirt/R450%20Ambition%20University%20T-shirt.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20University%20T-shirt/R450%20Ambition%20University%20T-shirt.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -73,7 +86,9 @@
     "price": "",
     "priceLabel": "Ask for price",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Available%20in%20Black%20All%20sizes/IMG_8739.PNG",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Available%20in%20Black%20All%20sizes/IMG_8739.PNG"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Available%20in%20Black%20All%20sizes/IMG_8739.PNG"
+    ],
     "status": "Available — ask us to confirm",
     "orderable": false
   },
@@ -86,7 +101,10 @@
     "price": "500",
     "priceLabel": "R500",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Hoodie%20Available%20in%20only%20this%20colour/R500%20Ambition%20Hoodie%20Available%20in%20only%20this%20colour.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Hoodie%20Available%20in%20only%20this%20colour/R500%20Ambition%20Hoodie%20Available%20in%20only%20this%20colour.jpeg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Hoodie%20Available%20in%20only%20this%20colour/Ambition%20Hoodie.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Hoodie%20Available%20in%20only%20this%20colour/R500%20Ambition%20Hoodie%20Available%20in%20only%20this%20colour.jpeg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Hoodie%20Available%20in%20only%20this%20colour/Ambition%20Hoodie.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -99,7 +117,9 @@
     "price": "380",
     "priceLabel": "R380",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20Hoodie%20R380/Ambition%20Relaxed%20Hoodie%20R380.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20Hoodie%20R380/Ambition%20Relaxed%20Hoodie%20R380.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Relaxed%20Hoodie%20R380/Ambition%20Relaxed%20Hoodie%20R380.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -112,7 +132,9 @@
     "price": "500",
     "priceLabel": "R500",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20Hoodie%20R500/Ambition%20Skull%20Hoodie%20R500.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20Hoodie%20R500/Ambition%20Skull%20Hoodie%20R500.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20Hoodie%20R500/Ambition%20Skull%20Hoodie%20R500.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -125,7 +147,9 @@
     "price": "350",
     "priceLabel": "R350",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Tank%20Vest/R350%20Ambition%20Tank%20Vest.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Tank%20Vest/R350%20Ambition%20Tank%20Vest.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Tank%20Vest/R350%20Ambition%20Tank%20Vest.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -138,7 +162,9 @@
     "price": "200",
     "priceLabel": "R200",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Caps/Ambition%20Caps%20R200.jpeg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Caps/Ambition%20Caps%20R200.jpeg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Caps/Ambition%20Caps%20R200.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -151,7 +177,10 @@
     "price": "120",
     "priceLabel": "R120",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R120%20Ambition%20Beanie/R120%20Ambition%20Beanie.jpg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R120%20Ambition%20Beanie/R120%20Ambition%20Beanie.jpg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R120%20Ambition%20Beanie/R120%20Ambition%20photoshoot%20Beanie.jpg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R120%20Ambition%20Beanie/R120%20Ambition%20Beanie.jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R120%20Ambition%20Beanie/R120%20Ambition%20photoshoot%20Beanie.jpg"
+    ],
     "status": "In stock",
     "orderable": true
   },
@@ -164,8 +193,49 @@
     "price": "180",
     "priceLabel": "R180",
     "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133851_WhatsApp.jpg",
-    "gallery": ["https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133851_WhatsApp.jpg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133856_WhatsApp.jpg", "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133908_WhatsApp.jpg"],
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133843_WhatsApp.jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133851_WhatsApp.jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133856_WhatsApp.jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/Screenshot_20261111_133908_WhatsApp.jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Skull%20caps/street.jpeg"
+    ],
     "status": "In stock",
     "orderable": true
+  },
+  {
+    "name": "R399 Ambition Summer shorts Limited",
+    "category": "Shorts",
+    "description": "Limited summer shorts in black and blue.",
+    "sizes": ["S", "M", "L", "XL"],
+    "colours": ["Black", "Blue"],
+    "price": "399",
+    "priceLabel": "R399",
+    "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R399%20Ambition%20Summer%20shorts%20Limited/R399%20Ambition%20Summer%20Black%20shorts%20Limited.jpeg",
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R399%20Ambition%20Summer%20shorts%20Limited/R399%20Ambition%20Summer%20Black%20shorts%20Limited.jpeg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/R399%20Ambition%20Summer%20shorts%20Limited/R399%20Ambition%20Summer%20Blue%20shorts%20Limited.jpeg"
+    ],
+    "status": "In stock",
+    "orderable": true
+  },
+  {
+    "name": "Ambition Lifestyle",
+    "category": "Lifestyle",
+    "description": "Behind-the-scenes Ambition lifestyle video and campaign visuals.",
+    "sizes": ["One size"],
+    "colours": ["As pictured"],
+    "price": "0",
+    "priceLabel": "View video",
+    "image": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/Fit%20by%20__ambition_clothing_wear(WEBP).webp",
+    "gallery": [
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/Fit%20by%20__ambition_clothing_wear(WEBP).webp",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/Fit%20by%20__ambition_clothing_wear(WEBP)_1.webp",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/AMBITION%20CLOTHING%20WEAR%20RACER%20T-SHIRT_%20PLACE%20YOUR%20ORDER%20THROUGH%20OUR%20DMs%20%F0%9F%8F%81%F0%9F%8F%8E_%20._._.__fashionstyle%20_locabrand%20_durban%20_music(JPG).jpg",
+      "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/CULT%20_%20AMBITION%20isn_t%20just%20clothing.%20It_s%20proof%20that%20differences%20can%20become%20strength_%20setbacks%20can%20become%20lessons_%20and%20brotherhood%20can%20create%20something%20gre_1.jpg"
+    ],
+    "video": "https://raw.githubusercontent.com/recordingsabantu/Ambition.co/main/Ambition%20Wear/Ambition%20Lifestyle/%E2%80%A2%20Two%20young%20men%20spend%20their%20days%20working%20inside%20a%20busy%20clothing%20warehouse_%20surrounded%20by%20boxes_%20fabric_%20labels_%20and%20unfinished%20ideas.%20While%20everyone%20else%20s.mp4",
+    "status": "Campaign feature",
+    "orderable": false
   }
 ]
