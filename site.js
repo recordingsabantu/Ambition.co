@@ -62,7 +62,7 @@
   }
   function prepareProducts(items) {
     return (Array.isArray(items) ? items : []).map(normalizedProduct).filter(Boolean)
-      .filter((item) => item.name !== 'Ambition Cap' && item.name !== 'Ambition Lifestyle');
+      .filter((item) => item.name !== 'Ambition Lifestyle');
   }
   const galleryFor = (item) => item.gallery?.length ? item.gallery : (item.image ? [item.image] : []);
   const visibleProducts = () => activeCategory === 'All' ? products : products.filter((item) => item.category === activeCategory);
@@ -121,7 +121,8 @@
     document.body.appendChild(root);
     const modal = $('.product-modal', root);
     root.addEventListener('click', (event) => {
-      if (event.target.closest('[data-dismiss-product]')) { root.remove(); return; }
+      // Do not treat clicks inside the dialog (including photo thumbnails) as backdrop clicks.
+      if (event.target.classList.contains('modal-backdrop') || event.target.closest('.modal-close')) { root.remove(); return; }
       const thumb = event.target.closest('[data-thumb-index]');
       if (thumb) {
         const index = Number(thumb.dataset.thumbIndex);
