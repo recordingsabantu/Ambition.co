@@ -269,7 +269,7 @@
           <label class="radio-option"><input type="radio" name="delivery-method" value="Courier"> Courier (confirm fee)</label>
           <label class="radio-option"><input type="radio" name="delivery-method" value="Collection"> Collection</label>
         </fieldset>
-        <div class="checkout-form"><label>Name<input id="checkout-name" type="text" autocomplete="name" placeholder="Your name" required></label><label>Email<input id="checkout-email" type="email" autocomplete="email" placeholder="you@example.com" required></label><label>Delivery address<input id="checkout-address" type="text" autocomplete="street-address" placeholder="Your address (if needed)"></label></div>
+        <div class="checkout-form"><label>Client name<input id="checkout-name" type="text" autocomplete="name" placeholder="Client name" required></label><label>Email<input id="checkout-email" type="email" autocomplete="email" placeholder="you@example.com" required></label><label>Delivery address<input id="checkout-address" type="text" autocomplete="street-address" placeholder="Your address (if needed)"></label></div>
         <div class="summary-row"><span>Subtotal</span><strong class="bag-subtotal">R0</strong></div><p class="delivery-note">Delivery fee and final total will be confirmed on your invoice.</p>
         <button type="button" class="primary-action" id="send-invoice">Request invoice on WhatsApp</button>
       </section></div></aside>`);
@@ -280,7 +280,7 @@
 
   function drawCart() {
     const target = $('.cart-items');
-    if (target) target.innerHTML = cart.length ? cart.map((item, index) => `<article class="cart-item"><img src="${esc(item.image)}" alt="${esc(item.name)}"><div class="cart-item__info"><div class="cart-item__top"><h4>${esc(item.name)}</h4><button type="button" class="remove-item" data-remove="${index}" aria-label="Remove ${esc(item.name)}">×</button></div><p>${esc(item.size || 'One size')} × ${item.quantity}</p><strong>${esc(Number(item.price) ? money(Number(item.price) * Number(item.quantity)) : 'Price to confirm')}</strong></div></article>`).join('') : '<p class="empty-cart">Your bag is empty.</p>';
+    if (target) target.innerHTML = cart.length ? cart.map((item, index) => `<article class="cart-item"><img src="${esc(item.image)}" alt="${esc(item.name)}"><div class="cart-item__info"><div class="cart-item__top"><h4>${esc(item.name)}</h4><button type="button" class="remove-item" data-remove="${index}" aria-label="Remove ${esc(item.name)}">Remove</button></div><p>${esc(item.size || 'One size')} · Qty ${esc(item.quantity)}</p><strong>${esc(Number(item.price) ? money(Number(item.price) * Number(item.quantity)) : 'Price to confirm')}</strong></div></article>`).join('') : '<p class="empty-state">Your bag is empty.</p>';
     const subtotal = cart.reduce((sum, item) => sum + Number(item.price || 0) * Number(item.quantity || 0), 0);
     const subtotalEl = $('.bag-subtotal');
     if (subtotalEl) subtotalEl.textContent = money(subtotal);
@@ -324,13 +324,13 @@
     const address = $('#checkout-address')?.value.trim();
     const delivery = $('input[name="delivery-method"]:checked')?.value || 'Local delivery';
     const payment = $('input[name="payment-method"]:checked')?.value || 'EFT';
-    if (!name || !email || !$('#checkout-email').checkValidity()) return toast('Please enter your name and a valid email');
+    if (!name || !email || !$('#checkout-email').checkValidity()) return toast('Please enter your client name and a valid email');
     if (delivery !== 'Collection' && !address) return toast('Please add your delivery address');
     const items = cart.map((item) => `${item.name} (${item.size || 'One size'}) x ${item.quantity} — ${Number(item.price) ? money(item.price * item.quantity) : 'price to confirm'}`).join('\n');
     const total = cart.reduce((sum, item) => sum + Number(item.price || 0) * Number(item.quantity || 0), 0);
     const message = [
       'Hello Ambition Wear, please send me an invoice for this order:', '', items, '',
-      `Name: ${name}`, `Email: ${email}`, `Payment option: ${payment}`, `Delivery option: ${delivery}`,
+      `Client name: ${name}`, `Email: ${email}`, `Payment option: ${payment}`, `Delivery option: ${delivery}`,
       ...(address ? [`Delivery address: ${address}`] : []),
       `Subtotal: ${money(total)}`, 'Please confirm delivery fee and final total on the invoice.'
     ].join('\n');
@@ -345,19 +345,27 @@
       render();
       return;
     }
-    const card = event.target.closest('.product-card[data-product-index]');
-    if (card && !event.target.closest('.product-slide-next')) {
-      const item = visibleProducts()[Number(card.dataset.productIndex)];
-      if (item) openProduct(item);
+
+    if (event.target.closest('[data-open-bag]')) {
+      openBag();
       return;
     }
+
     const remove = event.target.closest('[data-remove]');
     if (remove) {
       cart.splice(Number(remove.dataset.remove), 1);
       saveCart();
       return;
     }
-    if (event.target.closest('.bag-open, [data-open-bag], .bag-count')) openBag();
+
+    const card = event.target.closest('.product-card[data-product-index]');
+    if (card && !event.target.closest('.product-slide-next, [data-open-bag], .mini-btn')) {
+      const item = visibleProducts()[Number(card.dataset.productIndex)];
+      if (item) openProduct(item);
+      return;
+    }
+
+    if (event.target.closest('.bag-open, .bag-count')) openBag();
   });
 
   document.addEventListener('keydown', (event) => {
@@ -366,7 +374,7 @@
       $('.product-modal-root')?.remove();
     }
     const card = event.target.closest?.('.product-card[data-product-index]');
-    if (card && (event.key === 'Enter' || event.key === ' ')) {
+    if (card && (event.key === 'Enter' || event.key === ' ') && !event.target.closest('button')) {
       event.preventDefault();
       const item = visibleProducts()[Number(card.dataset.productIndex)];
       if (item) openProduct(item);
